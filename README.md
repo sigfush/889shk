@@ -18,13 +18,11 @@ For this reason, we were faced with two distinct major problems requiring attent
   2) The spatial resolution differed between sequences 1-3, posing a potential problem for data analysis.
   
 # Resolution
-- Issue 1)
+Issue 1)
 Our aim was to re-process the scans to have the same number of volumes across all subjects. We did this by truncating the longer sequences to match the number of volumes in sequence 1 (196). We utilized three separate Matlab scripts to obtain this goal. 
-
-Step 1
+- Step 1
 Implementing the first script ("copy_rest"), we generated a new folder and copied nifti files that contained resting-state data for our subject list to this location. This script takes an Excel sheet as input and finds '.nii' files containing resting state data (in this case, the script searches in preprocessed files including these prefixes: 'mfdswaRest', 'mfdswRest', 'fdswaRest', 'fdswRest'). The files are then copied to a desired location. 
-
-Step 2
+- Step 2
 The second script ("truncate_mri") operates from the directory where the resting-state files were copied to. This simple script browses through the files and truncates files with more than 196 volumes (> 196) to contain only 196 volumes. In our study, thus, files that have sequnces 2 and 3 are truncated, whereas files that have sequence 1 will be left unaffected. Truncated '.nii' files are saved in the same directory. 
 
 Step 3
