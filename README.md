@@ -18,7 +18,7 @@ Issues faced
   2) The spatial resolution differed between sequences 1-3, posing a potential problem for data analysis.
   
 Resolution
-Issue 1)
+- Issue 1)
 Our aim was to re-process the scans to have the same number of volumes across all subjects. We did this by truncating the longer sequences to match the number of volumes in sequence 1 (196). We utilized three separate Matlab scripts to obtain this goal. 
 
 Step 1
