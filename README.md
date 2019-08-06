@@ -1,3 +1,7 @@
 # Analyzing resting-state fMRI data from multiple sources
 This README link was created as part of a final project in PSYC 889 (“Advanced MRI Analyses”) at the University of South Carolina. The author assumes full responsibility for the description put forth below and credits others who have contributed to this work in any way where applicable. 
 
+Overview: The current project is a data-driven study motivated by a recent finding from our group suggesting that functional cortical brain activation is mediated by the brain-derived neurotrophin factor (BDNF) gene in subjects with chronic aphasia (Kristinsson et al., in press). We were interested in investigating whether there was a difference in resting-state functional brain networks by BDNF genotype in the same sample of subjects. To this end, we had available data on BDNF genotype, various language measures, and neuroimaging data. Below we briefly describe the objects of the study, the available data, and focus mainly on issues faced in processing the resting-state functional MRI data and the resolution of these issues. Our aim is that this step-by-step guide may prove useful for others faced with similar problems. 
+
+Study objective
+1) We wished to compare correlations between functional connections within the default-mode network resting state brain network across two groups of subjects with chronic aphasia; those with the Val66Val variant (typical group) of the BDNF gene and those with the Val66Met/Met66Met variant (atypical group) of the BDNF gene. 
