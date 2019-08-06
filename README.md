@@ -13,11 +13,11 @@ We collapsed data obtained for three different studies. Resting-state fMRI data 
   
 For this reason, we were faced with two distinct major problems requiring attention before the data could be analyzed. 
 
-Issues faced
+# Issues faced
   1) The number of volumes different between sequences 1-3, which, left unaddressed, would skew the correlational analysis.
   2) The spatial resolution differed between sequences 1-3, posing a potential problem for data analysis.
   
-Resolution
+# Resolution
 - Issue 1)
 Our aim was to re-process the scans to have the same number of volumes across all subjects. We did this by truncating the longer sequences to match the number of volumes in sequence 1 (196). We utilized three separate Matlab scripts to obtain this goal. 
 
