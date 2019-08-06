@@ -40,4 +40,8 @@ We used the John's Hopkin's University (JHU) brain atlas built into NiiStat. The
 
 In addition to exploring BDNF genotype-specific differences in the default-mode network, we were interested in examining if and how these differences were manifested in language profiles in our subjects. To achieve this goal, we wrote a simple Matlab script that extracts the correlation between two areas (as we were only interested in connections that survived our permutation analysis). This script is titled "extract_connections" and has been made available. Usage requires setting a path to a specific directory and specifying regions of interest ('roi1' and 'roi2'). The connection strength can then be associated with behavioral measures.
 
+# Acknowledgements
+- Dr. Grigori Yourganov (University of South Carolina, Department of Psychology) for his immense Matlab scripting talents. Grigori should be credited as the primary author of the Matlab scripts referenced in the current work.
+- Dr. Chris Rorden (University of South Carolina, Department of Psychology) for guidance, assistance, and support on this project. Chris was the instructor for the course for which this project was completed. 
+
 Results from these analyses will be reported in a poster presented at the Society for the Neurobiology of Language Conference in August, 2019. 
